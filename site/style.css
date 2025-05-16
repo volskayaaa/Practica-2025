@@ -1,6 +1,7 @@
 :root {
   --dark: #3b3b3b;
   --white: #ffffff;
+  --transition: all 0.3s ease;
 }
 
 body {
@@ -15,6 +16,8 @@ body {
 
 a {
   text-decoration: none;
+  color: var(--dark);
+  transition: var(--transition);
 }
 .dark {
   background-color: var(--dark);
@@ -53,7 +56,12 @@ a {
 }
 
 .nav__link:hover {
-  color: #e6e6e6;
+  color: #9b9b9b;
+}
+
+.res:hover {
+  color: black;
+  text-decoration: underline;
 }
 
 .container {
@@ -81,6 +89,9 @@ a {
   padding-bottom: 40px;
 }
 
+li {
+  padding-bottom: 25px;
+}
 .main__second {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -125,7 +136,7 @@ a {
   border: none;
   padding: 10px 15px;
   background: #ededed;
-  font-size: 14px;
+  font-size: 18px;
   border-top: 1px solid #ddd;
 }
 .table tr th:first-child,
@@ -146,7 +157,7 @@ a {
   text-align: left;
   border: none;
   padding: 10px 15px;
-  font-size: 14px;
+  font-size: 18px;
   vertical-align: top;
 }
 .table tbody tr:nth-child(even) {
