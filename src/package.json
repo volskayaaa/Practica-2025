@@ -1,0 +1,23 @@
+{
+  "name": "practica-2025",
+  "version": "1.0.0",
+  "description": "| ФИО                          | Учебная группа | Код направления подготовки | Профиль образовательной программы                            |\r | ---------------------------- | -------------- | -------------------------- | ------------------------------------------------------------ |\r | Вольская Елизавета Сергеевна | 241-338        | 09.03.02                   | Автоматизированные системы обработки информации и управления |",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/volskayaaa/Practica-2025.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/volskayaaa/Practica-2025/issues"
+  },
+  "homepage": "https://github.com/volskayaaa/Practica-2025#readme"
+}
