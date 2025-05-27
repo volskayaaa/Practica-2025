@@ -41,7 +41,7 @@
   - `README.md` — описание проекта
   - `journal.md` — журнал прохождения практики
 
-### 3. Создание статического сайта
+### 3. Создание статического сайта в VSCode.
 
 - См. папку [`site`](https://github.com/volskayaaa/Practica-2025/tree/main/site)
 
